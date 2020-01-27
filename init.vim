@@ -33,8 +33,8 @@ set t_Co=256
 
 " session management
 let g:session_directory = "~/.config/nvim/session"
-let g:session_autoload = "no"
-let g:session_autosave = "no"
+let g:session_autoload = "yes"
+let g:session_autosave = "yes"
 let g:session_command_aliases = 1
 
 " Theme
@@ -61,15 +61,14 @@ let g:airline_skip_empty_sections = 1
 " map
 let mapleader = " "
 
-nnoremap <A-l> :bn<CR>
-nnoremap <A-h> :bp<CR>
-nnoremap <A-q> :bd<CR>
+nnoremap <Leader>l :bn<CR>
+nnoremap <Leader>h :bp<CR>
+nnoremap <Leader>d :bd<CR>
 
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-nnoremap <silent> <Leader>l :nohlsearch<CR><C-L>
 
 " fzf
 nnoremap <C-P> :Files<CR>
