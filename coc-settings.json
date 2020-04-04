@@ -1,3 +1,11 @@
 {
-    "coc.preferences.formatOnSaveFiletypes": ["css", "Markdown", "javascript", "javascriptreact", "json", "typescript", "typescriptreact"]
+    "coc.preferences.formatOnSaveFiletypes": ["css", "Markdown", "javascript", "javascriptreact", "json", "typescript", "typescriptreact", "rust"],
+    "codeLens.enable": true,
+    "solargraph.commandPath": "/Users/mac/.rbenv/shims/solargraph",
+    "solargraph.promptDownload": true,
+    "solargraph.completion": true,
+    "solargraph.hover": true,
+    "solargraph.folding": true,
+    "solargraph.autoformat": false,
+    "solargraph.formatting": false
 }
